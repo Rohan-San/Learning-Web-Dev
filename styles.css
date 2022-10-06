@@ -1,0 +1,30 @@
+h1{
+    color:darkorange;
+    text-decoration:underline ;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+h2{
+    color: orange;
+}
+p{
+    color:slategray;
+    column-count: 2;
+    column-gap: 50px;
+}
+ul{
+    /* border-width: 4px;
+    border-style: dashed;
+    border-color: cornflowerblue; */
+    border-bottom: 4px solid cornflowerblue;
+    border-left: 4px dashed rgb(237, 100, 100);
+    border-right: 4px dashed rgb(237, 100, 100);
+    border-top: 4px dotted cornflowerblue;
+}
+li{
+    list-style-type:circle;
+    text-shadow: 2px 2px lightblue;
+}
+#content{
+    background-color: rgb(248, 238, 225);
+}

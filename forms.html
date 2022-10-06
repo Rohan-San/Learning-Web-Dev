@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <br>
+    <a href="index.html">Home Page</a>
+    <br>
+
+    <h1>HTML Forms</h1>
+    <form>
+        <label for="USN">Enter Username:</label>
+        <input type="text" id="USN" name="USN" placeholder="1MS21XX555" required>
+        <br><br>
+        <label for="email">Enter E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+        <br><br>
+        <label for="pwd">Enter Password:</label>
+        <input type="password" id="pwd" name="pwd" placeholder="Password" required>
+
+        <!--name attribute groups radio buttons so only one can be selected at once-->
+        <p>Select your age:</p>
+        <input type="radio" id="option1" name="age" value="0-25">
+        <label for="option1">0-25</label>
+        <input type="radio" id="option2" name="age" value="26-50">
+        <label for="option2">26-50</label>
+        <input type="radio" id="option3" name="age" value="51+">
+        <label for="option3">51+</label>
+
+        <br><br>
+
+        <label for="quest">Security Question:</label>
+        <select name="quest" id="quest">
+            <option value="q0">--SELECT--</option>
+            <option value="q1">What is your favourite colour?</option>
+            <option value="q2">What is the name of your childhood best friend?</option>
+            <option value="q3">If you wanted to be an Anime character, who would it be?</option>
+        </select>
+        <br><br>
+        <label for="ans">Security question answer:</label>
+        <input type="text" id="ans" name="ans">
+        <br><br>
+        <label for="bio">Your bio:</label>
+        <br>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Start typing here..."></textarea>
+        <br><br>
+        <input type="submit" value="Submit the form">
+
+    </form>
+
+</body>
+</html>
